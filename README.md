@@ -3,7 +3,7 @@
 In this code:
 
     myWebView.addJavascriptInterface(new JavaScriptInterface(this), "callback");
-*callback* is the name used to expose the object in JavaScript.
+*callback* is the name used to expose the object in javascript.
 Create method with appropriate name in class JavaScriptInterface and annotate it with @JavascriptInterface. For example, method named *process*:
 
     @JavascriptInterface
