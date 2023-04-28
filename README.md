@@ -1,6 +1,6 @@
 # android-hpp
-### Example of interaction between HPP loaded from web-server and Android application.
-In this code
+### Example of interaction between the HPP loaded from web-server and Android application.
+In this code:
 
     myWebView.addJavascriptInterface(new JavaScriptInterface(this), "callback");
 *callback* is the name used to expose the object in JavaScript.
