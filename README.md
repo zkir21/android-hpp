@@ -14,7 +14,7 @@ We create method with appropriate name in class JavaScriptInterface and annotate
             .filter(e -> e.length == 2)
             .collect(Collectors.toMap(e -> e[0], e -> e[1], (existing, replacement) -> existing, LinkedHashMap::new));
     }
-The following code is how JavaScript object and JavaScript method are referenced in javascript function on web-server page:
+The following code shows how to reference object *callback* and method *process* in a javascript function on a web server page:
 
     function androidCallback(data) {
         if (callback && callback.process) {
