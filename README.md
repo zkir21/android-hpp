@@ -23,7 +23,7 @@ Look how JavaScript object and JavaScript method are referenced in javascript pa
     }
 You chose on your own javascript function name (in this example - *androidCallback*).
 
-So *callback* JavaScript object name can be changed to your preference. The java method annotated with @JavascriptInterface can have the name you chose and can have more then one parameter. For example:
+So *callback* JavaScript object name can be changed to your preference. The java method annotated with @JavascriptInterface can have the name you chose and can have more than one parameter. For example:
 
         @JavascriptInterface
         public void yet_one_method(String data, String username) {
