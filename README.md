@@ -31,4 +31,4 @@ So *callback* JavaScript object name can be changed to your preference. The java
         }
 You can have some methods annotated with @JavascriptInterface in your JavaScriptInterface class also.
 
-[Ссылка на основной java класс](https://github.com/zkir21/android-hpp/blob/master/app/src/main/java/com/example/exampleapp/MainActivity.java)
+[Main java class link](https://github.com/zkir21/android-hpp/blob/master/app/src/main/java/com/example/exampleapp/MainActivity.java)
