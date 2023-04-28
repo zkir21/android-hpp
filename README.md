@@ -23,7 +23,7 @@ The following code shows how to reference object *callback* and method *process*
     }
 You chose on your own javascript function name (in this example - *androidCallback*).
 
-So, *callback* JavaScript object name can be changed to your preference. The java method annotated with @JavascriptInterface can have the name you chose and can have more than one parameter. For example:
+So, *callback* javascript object name can be changed to your preference. The java method annotated with @JavascriptInterface can have the name you chose and can have more than one parameter. For example:
 
         @JavascriptInterface
         public void yet_one_method(String data, String username) {
