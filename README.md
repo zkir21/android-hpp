@@ -4,7 +4,7 @@ In this code:
 
     myWebView.addJavascriptInterface(new JavaScriptInterface(this), "callback");
 *callback* is the name used to expose the object in JavaScript.
-We create method with appropriate name in class JavaScriptInterface and annotate it with @JavascriptInterface. I've used the name *process* in this project:
+Create method with appropriate name in class JavaScriptInterface and annotate it with @JavascriptInterface. For example, method named *process*:
 
     @JavascriptInterface
     public void process(String data) {
@@ -23,7 +23,7 @@ The following code shows how to reference object *callback* and method *process*
     }
 You chose on your own javascript function name (in this example - *androidCallback*).
 
-So *callback* JavaScript object name can be changed to your preference. The java method annotated with @JavascriptInterface can have the name you chose and can have more than one parameter. For example:
+So, *callback* JavaScript object name can be changed to your preference. The java method annotated with @JavascriptInterface can have the name you chose and can have more than one parameter. For example:
 
         @JavascriptInterface
         public void yet_one_method(String data, String username) {
